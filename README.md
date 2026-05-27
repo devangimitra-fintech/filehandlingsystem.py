@@ -10,79 +10,79 @@ This project demonstrates Python File Handling operations using a menu-driven in
 
 Technologies Used-
 
-Python 3
+1.Python 3
 
-File I/O Operations
+2.File I/O Operations
 
-Exception Handling
+3.Exception Handling
 
-Concepts Covered
+Concepts Covered-
 
-open() function
+1.open() function
 
-File modes: 'r', 'w', 'a', 'r+'
+2.File modes: 'r', 'w', 'a', 'r+'
 
-Exception handling
+3.Exception handling
 
-Functions
+4.Functions
 
-Loops
+5.Loops
 
-Menu-driven programs
+6.Menu-driven programs
 
-Edge Cases Tested
+Edge Cases Tested-
 
-Empty files
+1.Empty files
 
-Non-existing files
+2.Non-existing files
 
-Invalid line numbers
+3.Invalid line numbers
 
-Large files
+4.Large files
 
-Special characters
+5.Special characters
 
-How to Run
+How to Run-
 
-Save the code in a file named file_system.py
+1.Save the code in a file named file_system.py
 
-Open terminal or command prompt
+2.Open terminal or command prompt
 
-Run:
+3.Run:
 
 python file_system.py
 
-Explanation of File Modes
+Explanation of File Modes-
 
-Mode	Purpose
+Mode	    Purpose
 
-'r'	Read file
+'r' 	    Read file
 
-'w'	Write file (overwrite)
+'w'	      Write file (overwrite)
 
-'a'	Append content
+'a'	      Append content
 
-'r+'	Read and write
+'r+'	    Read and write
 
 Features Included-
 
-Create a new file
+1.Create a new file
 
-Read file content
+2.Read file content
 
-Append text to file
+3.Append text to file
 
-Update specific lines
+4.Update specific lines
 
-Delete file
+5.Delete file
 
-Error handling using try-except
+6.Error handling using try-except
 
-Menu-driven interface
+7.Menu-driven interface
 
-Uses Python file modes: 'r', 'w', 'a', 'r+'
+8.Uses Python file modes: 'r', 'w', 'a', 'r+'
 
-Uses with statement for safe file handling
+9.Uses with statement for safe file handling
 
 Sample Input / Output-
 
@@ -98,7 +98,9 @@ Example 1: Create File
 6. Exit
 
 Enter your choice: 1
+
 Enter file name: notes.txt
+
 Enter content for the file:
 Hello World
 
@@ -107,6 +109,7 @@ File created successfully.
 Example 2: Read File
 
 Enter your choice: 2
+
 Enter file name to read: notes.txt
 
 File Content:
@@ -115,7 +118,9 @@ Hello World
 Example 3: Append Text
 
 Enter your choice: 3
+
 Enter file name to append text: notes.txt
+
 Enter text to append:
 This is second line.
 
@@ -124,6 +129,7 @@ Text appended successfully.
 Example 4: Update Line
 
 Enter your choice: 4
+
 Enter file name to update: notes.txt
 
 Current File Content:
@@ -131,6 +137,7 @@ Current File Content:
 2. This is second line.
 
 Enter line number to update: 2
+
 Enter new text: Updated second line
 
 Line updated successfully.
@@ -138,6 +145,7 @@ Line updated successfully.
 Example 5: Delete File
 
 Enter your choice: 5
+
 Enter file name to delete: notes.txt
 
 File deleted successfully.
