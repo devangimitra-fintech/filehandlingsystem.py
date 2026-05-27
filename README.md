@@ -11,48 +11,77 @@ This project demonstrates Python File Handling operations using a menu-driven in
 Technologies Used-
 
 Python 3
+
 File I/O Operations
+
 Exception Handling
+
 Concepts Covered
 
 open() function
+
 File modes: 'r', 'w', 'a', 'r+'
+
 Exception handling
+
 Functions
+
 Loops
+
 Menu-driven programs
+
 Edge Cases Tested
 
 Empty files
+
 Non-existing files
+
 Invalid line numbers
+
 Large files
+
 Special characters
+
 How to Run
 
 Save the code in a file named file_system.py
+
 Open terminal or command prompt
+
 Run:
+
 python file_system.py
 
 Explanation of File Modes
 
 Mode	Purpose
+
 'r'	Read file
+
 'w'	Write file (overwrite)
+
 'a'	Append content
+
 'r+'	Read and write
 
 Features Included-
 
 Create a new file
+
 Read file content
+
 Append text to file
+
 Update specific lines
+
 Delete file
+
 Error handling using try-except
+
 Menu-driven interface
+
 Uses Python file modes: 'r', 'w', 'a', 'r+'
+
 Uses with statement for safe file handling
 
 Sample Input / Output-
